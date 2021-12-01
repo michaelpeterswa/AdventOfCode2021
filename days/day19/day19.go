@@ -1,30 +1,30 @@
 /*
 
-         .
-      __/ \__
-      \     /
-      /.'o'.\
-       .o.'.       Michael Peters
-      .'.'o'.      Advent of Code 2021 - Go Edition
-     o'.o.'.o.     Day19!
-    .'.o.'.'.o.
+		 .
+	  __/ \__
+	  \     /
+	  /.'o'.\
+	   .o.'.       Michael Peters
+	  .'.'o'.      Advent of Code 2021 - Go Edition
+	 o'.o.'.o.     Day19!
+	.'.o.'.'.o.
    .o.'.o.'.o.'.
-      [_____]
-       \___/    ldb
+	  [_____]
+	   \___/    ldb
 
 */
 
 package day19
 
 import (
-    "fmt"
-    "os"
+	"fmt"
+	"os"
 )
 
 func Day19(filename string){
-    fmt.Println("AoC Day19 2021\n")
+	fmt.Println("AoC Day19 2021\n")
 
-    data, err := os.ReadFile(filename)
+	data, err := os.ReadFile(filename)
 	if err != nil {
 		panic(err)
 	}
