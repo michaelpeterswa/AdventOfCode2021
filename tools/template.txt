@@ -1,0 +1,33 @@
+/*
+
+         .
+      __/ \__
+      \     /
+      /.'o'.\
+       .o.'.       Michael Peters
+      .'.'o'.      Advent of Code 2021 - Go Edition
+     o'.o.'.o.     function_name!
+    .'.o.'.'.o.
+   .o.'.o.'.o.'.
+      [_____]
+       \___/    ldb
+
+*/
+
+package package_name
+
+import (
+    "fmt"
+    "os"
+)
+
+func function_name(filename string){
+    fmt.Println("AoC function_name 2021")
+
+    data, err := os.ReadFile(filename)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(string(data))
+}
