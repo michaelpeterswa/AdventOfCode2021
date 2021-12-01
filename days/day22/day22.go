@@ -22,7 +22,7 @@ import (
 )
 
 func Day22(filename string){
-	fmt.Println("AoC Day22 2021\n")
+	fmt.Printf("AoC Day22 2021\n\n")
 
 	data, err := os.ReadFile(filename)
 	if err != nil {
